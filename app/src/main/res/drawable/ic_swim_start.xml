@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 스타팅 블록 (Starting Block Base & Plate) -->
+    <path
+        android:fillColor="#00B8D4"
+        android:pathData="M 32,74 L 58,75 L 50,88 L 32,88 Z" />
+
+    <!-- 스타팅 블록 손잡이 (Block Handle) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1AD2ED"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 52,78 C 62,78 62,84 60,84 L 56,84" />
+
+    <!-- 스타팅 블록 상판 경사면 (Top Surface) -->
+    <path
+        android:fillColor="#1AD2ED"
+        android:pathData="M 22,68 L 62,72 C 63,72 63,75 62,75 L 20,71 Z" />
+
+    <!-- 스타팅 블록 뒷 발판 (Foot Rest Block) -->
+    <path
+        android:fillColor="#1AD2ED"
+        android:pathData="M 24,60 L 31,69 L 22,68 Z" />
+
+    <!-- 수영 선수 - 뒤 다리 (Back Leg) -->
+    <path
+        android:fillColor="#F7B896"
+        android:pathData="M 27,61 L 35,53 L 47,50 L 44,43 L 31,48 Z" />
+
+    <!-- 수영 선수 - 앞 다리 (Front Leg) -->
+    <path
+        android:fillColor="#EAA484"
+        android:pathData="M 50,71 L 54,61 L 52,48 L 46,47 L 45,61 L 48,71 Z" />
+
+    <!-- 수영 선수 - 빨간 수영복 (Red Swimsuit) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M 38,32 C 46,28 58,30 65,36 C 68,40 65,48 60,45 C 55,42 47,45 43,51 L 37,48 Z" />
+
+    <!-- 수영 선수 - 몸통 & 어깨 (Torso & Shoulder) -->
+    <path
+        android:fillColor="#F7B896"
+        android:pathData="M 58,34 C 64,36 67,42 66,48 L 62,48 C 62,43 58,38 54,36 Z" />
+
+    <!-- 수영 선수 - 뻗은 팔 (Arms to Block Edge) -->
+    <path
+        android:fillColor="#F7B896"
+        android:pathData="M 62,40 L 66,48 L 61,72 L 58,72 L 60,48 Z" />
+
+    <!-- 수영 선수 - 얼굴 & 목 (Face & Neck) -->
+    <path
+        android:fillColor="#F7B896"
+        android:pathData="M 68,31 C 74,31 80,35 80,41 L 76,43 L 71,40 Z" />
+
+    <!-- 수영모 (Blue Swim Cap) -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M 68,31 C 74,29 80,33 80,39 C 76,37 72,37 68,31 Z" />
+
+    <!-- 수경 & 끈 (Goggles & Strap) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M 70,36 L 79,36" />
+
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M 74,36 A 2,2 0 1,1 74,35.9" />
+
+</vector>
